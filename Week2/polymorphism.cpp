@@ -3,7 +3,7 @@ using namespace std;
 
 
 /* 
-Polymorphism ; a clas or object that takes multiple
+Polymorphism ; a class or object that takes multiple
 forms. parent class reference is used to refer to
 an object of a child class.
  */

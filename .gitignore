@@ -1,2 +1,6 @@
 *.pdf
 *.exe
+solved_problems/
+*.vscode/
+*.vscode
+*.code-workspace
