@@ -22,8 +22,7 @@ int main(){
     m.erase("Second");
     cout <<"After removing second element, the size is: " << m.size() << endl;
 
-    // finding an element
-    map<string,int>::iterator itr = m.find("Third");
+
 
     // accessing values
     cout << "The third element: " << m["Third"] << endl;
