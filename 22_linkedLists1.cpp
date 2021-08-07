@@ -25,6 +25,15 @@ public:
     Node* Next; 
 };
 int main(){
-
+    Node* head = new Node(); // the first element of a linked list convention
+    Node* second = new Node(); 
+    Node* third = new Node(); 
+    //creating values & linking elements
+    head->Value = 1;
+    head->Next = second;
+    second->Value = 2;
+    second->Next = third;
+    third->Value = 3;
+    third->Next = NULL;
     return 0;
 }
