@@ -24,6 +24,14 @@ public:
     int Value;
     Node* Next; 
 };
+
+void printList(Node*n){
+    while(n != NULL){
+        cout << n->Value <<endl;
+        n = n->Next;
+    }
+
+}
 int main(){
     Node* head = new Node(); // the first element of a linked list convention
     Node* second = new Node(); 
@@ -35,5 +43,7 @@ int main(){
     second->Next = third;
     third->Value = 3;
     third->Next = NULL;
+
+    printList(head);
     return 0;
 }
